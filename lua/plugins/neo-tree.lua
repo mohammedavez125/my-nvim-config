@@ -1,5 +1,5 @@
 return{
-    "nvim-neo-tree/neo-tree.nvim", branch = "v3.x", 
+    "nvim-neo-tree/neo-tree.nvim", branch = "v3.x",
     dependencies = {
         "nvim-lua/plenary.nvim",
         "MunifTanjim/nui.nvim",
@@ -10,9 +10,3 @@ return{
         vim.keymap.set('n','<C-n>',':Neotree toggle left<CR>',{})
     end
 }
-
-
-
-
-
-
