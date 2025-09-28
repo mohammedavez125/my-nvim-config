@@ -12,11 +12,11 @@ return {
 				null_ls.builtins.diagnostics.eslint_d,
 				null_ls.builtins.diagnostics.rubocop,
 				null_ls.builtins.formatting.rubocop,
-                --  null_ls.builtins.completion.spell,
+				--  null_ls.builtins.completion.spell,
 				-- require("none-ls.diagnostics.eslint"), -- requires none-ls-extras.nvim
 			},
 		})
 
-		vim.keymap.set("n", "<Leader>cf", vim.lsp.buf.format, {desc="code format"})
+		vim.keymap.set("n", "<Leader>cf", vim.lsp.buf.format, { desc = "code format" })
 	end,
 }
